@@ -3,4 +3,5 @@
 * [Introduction](README.md)
 * [Azure Management Certificate](azure-management-certificate.md)
 * [Erlang Meaningful Output](erlang-meaningful-output.md)
+* [Useful Erlang Functions](useful-erlang-functions.md)
 
