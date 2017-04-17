@@ -4,6 +4,16 @@
 
 It is quite often the case that inline debugging is necessary;  Erlang- at least what I know of the tools for it does not have a debugger.
 
+```
+% When displaying only a string.
+io:format("Hello, world!~n").
+% // Hello world!
+
+% If there are varibles
+io:format("The number is ~n", [12]).
+% // The number is 12
+```
+
 # Article {#article}
 
 ---
@@ -42,7 +52,6 @@ There is an [io\_lib:format](http://www.erlang.org/doc/man/io_lib.html#format-2)
 >
  lists:flatten(v(1)).
 "foo 42 bar\n"
-
 ```
 
 But as you see, there are ways to flatten the result. It is not done per automation since all data sent to ports are flattened there anyway. Ports include files, other processes, sockets, etc. The concept is called “iolist”. If you want the byte-count of an iolist, then use [erlang:iolist\_size](http://www.erlang.org/doc/man/erlang.html#iolist_size-1).
@@ -54,7 +63,6 @@ Finally I would like to point out a little useful function called [lists:concat]
 >
  lists:concat([foo," ", 42, " ", bar, "\n"]).
 "foo 42 bar\n"
-
 ```
 
 Send comments to chsu79@gmail.com
