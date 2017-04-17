@@ -4,4 +4,5 @@
 * [What is XYZ?](first-question.md)
 * [How can I do X?](second-question.md)
 * [Azure Management Certificate](azure-management-certificate.md)
+* [Erlang Meaningful Output](erlang-meaningful-output.md)
 

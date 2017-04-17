@@ -1,1 +1,8 @@
-This file serves as an introduction to your Knowledge Base, it is displayed on the homepage of your website. Use it to provide more context to your visitors.
+# Standards & Style
+
+
+
+It's probably a good thing to mention while this is a collection of thoughts, things, and linked articles, the content linked or copied from respective sources is not mine. I copied it here in case a link goes dead, the site goes down, whatever the case - to keep that information around. If there is an issue with this, go ahead and shoot me an email!  
+  
+Thanks in advance!
+
