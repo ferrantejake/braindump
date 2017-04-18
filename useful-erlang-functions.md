@@ -1,4 +1,6 @@
-# Overview
+# Preface
+
+## Handy Functions
 
 A quick synopsis of functions I've personally found helpful using Erlang
 
@@ -6,6 +8,20 @@ A quick synopsis of functions I've personally found helpful using Erlang
 | :--- | :--- |
 | lists:foldr\(Fun, Acc, List\) -&gt; Any                                                  lists:foldr\(Fun, Acc, List\) -&gt; Any | fold functions |
 |  |  |
+
+---
+
+## Syntax
+
+### Case
+
+```
+case <expr> of
+    <pat 1> -> <body1> ;
+    <pat 2> -> <body2> ;
+    ...
+end
+```
 
 ## Details
 
