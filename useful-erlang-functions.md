@@ -1,5 +1,7 @@
 # Preface
 
+Here are where I am pulling many of these definitions: [http://erlang.org/doc/man/lists.html\#foldr-3](http://erlang.org/doc/man/lists.html#foldr-3)
+
 ## Handy Functions
 
 A quick synopsis of functions I've personally found helpful using Erlang
