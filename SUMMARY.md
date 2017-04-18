@@ -4,4 +4,5 @@
 * [Azure Management Certificate](azure-management-certificate.md)
 * [Erlang Meaningful Output](erlang-meaningful-output.md)
 * [Useful Erlang](useful-erlang-functions.md)
+* [Means To Analyze Journal Entries ](means-to-analyze-journal-entries.md)
 
