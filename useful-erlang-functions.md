@@ -1,6 +1,7 @@
 # Preface
 
-Here are where I am pulling many of these definitions: [http://erlang.org/doc/man/lists.html\#foldr-3](http://erlang.org/doc/man/lists.html#foldr-3)
+Here are where I am pulling many of these definitions: [http://erlang.org/doc/man/lists.html\#foldr-3](http://erlang.org/doc/man/lists.html#foldr-3)  
+LearnYouSomeErlang is an extremely useful document: [http://learnyousomeerlang.com](http://learnyousomeerlang.com)
 
 ## Handy Functions
 
