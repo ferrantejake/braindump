@@ -23,6 +23,16 @@ case <expr> of
 end
 ```
 
+## If
+
+```
+if 
+    some_condition -> some_code;
+    some_other_condition -> some_other_code;
+    true -> else_code
+end.
+```
+
 ## Details
 
 ### foldr/foldl
