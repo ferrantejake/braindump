@@ -5,4 +5,5 @@
 * [Erlang Meaningful Output](erlang-meaningful-output.md)
 * [Useful Erlang](useful-erlang-functions.md)
 * [Means To Analyze Journal Entries ](means-to-analyze-journal-entries.md)
+* [Practical Functional Programming in JavaScript](practical-functional-programming-in-javascript.md)
 
