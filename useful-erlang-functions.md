@@ -4,7 +4,8 @@ A quick synopsis of functions I've personally found helpful using Erlang
 
 | lists:member\(Elem, List\) -&gt; boolean\(\) | true if member is in list |
 | :--- | :--- |
-| lists:foldr\(Fun, Acc, List\) -&gt; Any |  |
+| lists:foldr\(Fun, Acc, List\) -&gt; Any,                                                 lists:foldr\(Fun, Acc, List\) -&gt; Any  | fold functions |
+|  |  |
 
 ## Details
 
