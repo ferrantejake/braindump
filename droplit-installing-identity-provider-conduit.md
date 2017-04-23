@@ -51,5 +51,9 @@ Configure an Identity Provider - We will explore Auth0
 4. Copy/paste the Client ID, Client Secret, and Domain information from the Auth0 website in the Droplit Auth0 conduit portal configuration
 5. Save your Droplit Auth0 conduit configuration
 
+## Conclusion
 
+---
+
+Congratulations, you've completed setting up an Auth0 identity service provider. You can now authenticate with the Auth0 service. 
 
