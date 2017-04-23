@@ -1,4 +1,4 @@
-# Droplit: Configure Auth0 for Droplit
+# Droplit: Configure Auth0 Identity Service Provider
 
 ## Scenario
 
@@ -31,8 +31,6 @@ Go to [https://auth0.com](https://auth0.com) and create an account
 1. Go to clients \(left side panel\)
 2. Click "Create Client" button
 3. Choose "Regular Web Application"
-
-
 
 
 
