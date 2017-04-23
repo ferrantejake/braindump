@@ -19,11 +19,11 @@ Configure Droplit Amazon Alexa conduit to work with your Amazon Alexa account.
 * A working Amazon Alexa skill
 * Amazon Alexa Developer account
 * Amazon Web Services account
-* * Amazon Alexa App
-* * A configured Identity Service Provider 
+* Amazon Alexa App
+* A configured Identity Service Provider 
 * Droplit account
 
-If you have not configured an identity service provider, then take a look at [this article](https://ferrantejake.gitbooks.io/braindump/content/droplit-installing-identity-provider-conduit.html) for more information on setting up your Droplit acount with Auth0 as your identity service provider. 
+If you have not configured an identity service provider, then take a look at [this article](https://ferrantejake.gitbooks.io/braindump/content/droplit-installing-identity-provider-conduit.html) for more information on setting up your Droplit acount with Auth0 as your identity service provider.
 
 ## Configure Amazon Alexa Skill
 
