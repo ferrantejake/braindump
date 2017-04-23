@@ -17,6 +17,7 @@ Configure an Identity Provider - We will explore Auth0
 ---
 
 * Auth0 account
+* Droplit account
 
 ## Configure Auth0 Client
 
@@ -55,5 +56,5 @@ Configure an Identity Provider - We will explore Auth0
 
 ---
 
-Congratulations, you've completed setting up an Auth0 identity service provider. You can now authenticate with the Auth0 service. 
+Congratulations, you've completed setting up an Auth0 identity service provider. You can now authenticate with the Auth0 service.
 
