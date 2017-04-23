@@ -1,4 +1,4 @@
-# Droplit: Configure Auth0 Identity Service Provider
+# Configure Auth0 Identity Service Provider
 
 ## Scenario
 
