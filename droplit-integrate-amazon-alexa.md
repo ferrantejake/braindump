@@ -1,4 +1,4 @@
-# Droplit: Integrate Amazon Alexa
+# Integrate Amazon Alexa
 
 ## Scenario
 
