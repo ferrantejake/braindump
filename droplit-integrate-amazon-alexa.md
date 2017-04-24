@@ -34,7 +34,7 @@ If you have not configured an identity service provider, then take a look at [th
 1. Sign into your Amazon Developer account [https://developer.amazon.com](https://developer.amazon.com)
 2. Once in the developer console, click the Alexa tab and navigate to Alexa Skills Kit 
 3. Whether you are creating a new skill or integrating a pre-existing one, make sure it is configured to use the Smart Home Skill API. This option can be configured under `Skill Infoirmation>Skill Type` in your skill's configuration settings
-4. We will come back to this, so make sure to keep the tab open and save your work
+   1. We will come back to this, so make sure to keep the tab open and save your work
 
 ### Install Droplit Amazon Alexa Skill
 
@@ -46,6 +46,13 @@ If you have not configured an identity service provider, then take a look at [th
    1. Here we should see some documentation for the conduit's settings, incluiding the `Authorization URL`, `Client Id`, and others.
 
 ### Configure Alexa Skill
+
+1. Use the information from the Droplit Alexa Skill conduit configuration to setup the following fields in the Amazon Developer Console Alexa Skill configuration
+   1. Authorization URL
+   2. Client Id
+   3. 4. Scope
+   5. Access Token URI
+   6. 
 
 ## Conlusion
 
