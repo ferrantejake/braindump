@@ -29,12 +29,12 @@ If you have not configured an identity service provider, then take a look at [th
 
 ---
 
-### Configure Amazon Alexa Skill
+### Create Amazon Alexa Skill
 
 1. Sign into your Amazon Developer account [https://developer.amazon.com](https://developer.amazon.com)
 2. Once in the developer console, click the Alexa tab and navigate to Alexa Skills Kit 
-
-
+3. Whether you are creating a new skill or integrating a pre-existing one, make sure it is configured to use the Smart Home Skill API. This option can be configured under `Skill Infoirmation>Skill Type` in your skill's configuration settings
+4. We will come back to this, so make sure to keep the tab open and save your work
 
 ### Install Droplit Amazon Alexa Skill
 
