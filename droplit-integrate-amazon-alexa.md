@@ -40,11 +40,9 @@ If you have not configured an identity service provider, then take a look at [th
 4. Open open your newly installed Amazon Alexa Skill conduit
    1. Here we should see some documentation for the conduit's settings, incluiding the `Authorization URL`, `Client Id`, and others.
 
-## Configure Alexa Skill
+### Configure Alexa Skill
 
-
-
-### Conlusion
+## Conlusion
 
 ---
 
