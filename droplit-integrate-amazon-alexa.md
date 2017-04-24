@@ -31,9 +31,14 @@ If you have not configured an identity service provider, then take a look at [th
 
 ### Configure Amazon Alexa Skill
 
+1. Sign into your Amazon Developer account [https://developer.amazon.com](https://developer.amazon.com)
+2. Once in the developer console, click the Alexa tab and navigate to Alexa Skills Kit 
+
+
+
 ### Install Droplit Amazon Alexa Skill
 
-1. Go to [http://portal.droplit.io](http://portal.droplit.io) and sign in
+1. In a new tab go to [http://portal.droplit.io](http://portal.droplit.io) and sign in
 2. Click "Conduits" \(side-left panel\) to open the conduits view
 3. Find and install the Alexa Smart Home Skill conduit
    1. Name your conduit aptly - you have one per ecosystem
