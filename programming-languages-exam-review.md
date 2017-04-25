@@ -2,29 +2,25 @@
 
 * Bounded and Unbounded Variables
 
-
-
-## Bounded and Unbounded Variables
+## Free and Bound Variables
 
 ```Haskell
 concat(map(fun(Y) -> F(X,Y) end, (fun(Q,R) -> Q end)(LS,empty)))
 ```
 
-### Bounded
+### Bound
 
 ```
-{ Y, Q concat, map }
+{ Y, Q }
 ```
 
-Note that `concat` and `map`  are bounded because the are declared functions. The notion that a variable is bound is because it is referencing some prior instantiation. In this case, `concat` and `map` have been declared in some other module.
-
-### Unbounded
+### Free
 
 ```
-{ X, LS }
+{ X, LS, F, concat, map }
 ```
 
-Neither LS nor X is not bounded in this context.
+Notice that `concat` and `map` are free in this context because they are declared in some other module and not constrained to the current context.
 
 ### Neither
 
