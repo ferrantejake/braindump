@@ -1,4 +1,4 @@
-I am not that big on quotes, but occasionally I come across some interesting ones which I find inspire me. Here is that list:
+I am not that big on quotes, but occasionally I come across some interesting ones which hold some meaning for me. Here is that list:
 
 | Author | Quote |
 | :--- | :--- |
