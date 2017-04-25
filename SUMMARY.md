@@ -4,6 +4,7 @@
 
 * [Introduction](README.md)
 * [Means To Analyze Journal Entries ](means-to-analyze-journal-entries.md)
+* [Worthwhile Quotes](worthwhile-quotes.md)
 
 ## Droplit
 
@@ -15,6 +16,7 @@
 * [Useful Erlang](useful-erlang-functions.md)
 * [Erlang Meaningful Output](erlang-meaningful-output.md)
 * [Practical Functional Programming in JavaScript](practical-functional-programming-in-javascript.md)
+* [Programming Languages Exam Review](programming-languages-exam-review.md)
 
 ## Management
 
