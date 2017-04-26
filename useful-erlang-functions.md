@@ -11,6 +11,7 @@ A quick synopsis of functions I've personally found helpful using Erlang
 | :--- | :--- |
 | lists:foldr\(Fun, Acc, \[T\(\)\]\) -&gt; Any                                                  lists:foldr\(Fun, Acc, \[T\(\)\]\) -&gt; Any | fold functions |
 | lists:sum\(\[number\(\)\]\) | sum a list |
+|  |  |
 
 ---
 
