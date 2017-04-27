@@ -80,7 +80,8 @@ neither:  { X }
 4. Which kind of type checking allows the programmer more flexibility: static or dynamic type checking? 
    1. **Dynamic**
 5. Give an example, in Erlang, of an expression or program that will run without a type error that would not type check if it were translated into Haskell.
-   1. 
+   1. `P = fun(Obj, Acc) -> Acc end, lists:foldr(P, void, [{key, value}]).`
+      1. This would run without issue because the object `{key, value}` can be generalized into a single entity, `Obj` . If this ran in Haskell, it would not get type checked because `Obj` is never used.
 6. In Erlang, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution?
 7. In Haskell, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution
 
