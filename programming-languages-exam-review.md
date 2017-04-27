@@ -92,6 +92,9 @@ No, dynamic typing allows Erlang to have lists composed of different types. Type
 A key/value database
 
 ```erlang
+% Jake Ferrante
+% key:value pair model
+
 -module(catalogserver).
 -export([start/0, server/1]).
 
@@ -141,6 +144,9 @@ server(Table) ->
 A server with a state
 
 ```erlang
+% Jake Ferrante
+% Shared state server model
+
 -module(sharedvarserver).
 -export([start/1, server/1]).
 
@@ -161,9 +167,11 @@ server(S) ->
 
 ## election
 
+Elect jake for president
+
 ```erlang
 % Jake Ferrante
-% Spec module
+% Election system
 
 -module(election). 
 -export([start/0, vote/2, results/1]).
