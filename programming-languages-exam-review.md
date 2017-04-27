@@ -30,13 +30,13 @@ Notice that `concat` and `map` are free in this context because they are declare
 
 R is never used. empty is an atom. From this information it follows that these structures are either neither bounded nor unbounded variables, as they were never variables to begin with.
 
-
-
 # Examples
 
 ---
 
 ## catalogserver
+
+A key/value database
 
 ```erlang
 -module(catalogserver).
@@ -70,7 +70,7 @@ server(Table) ->
                             _ -> false
                 end 
             end, Table),
-            
+
             case length(Items) of
                 0 -> 
                     Pid ! { self(), { value_is, undefined }}, 
