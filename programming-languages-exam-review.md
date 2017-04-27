@@ -4,6 +4,8 @@
 
 ## Free and Bound Variables
 
+---
+
 ### Question
 
 ```Haskell
@@ -50,7 +52,21 @@ bound:    { A, Y }
 neither:  { X }
 ```
 
+## General
+
+---
+
+1. How are variable names in Erlang scoped \(statically or dynamically\)?
+   1. **Dynamically**
+2. Suppose a programming language has a way to create function values at runtime, like Erlang does. Explain how you can you tell if that language has static or dynamic scoping for variable names?
+   1. 
+3. If a language makes closures for function values that are created at runtime, what kind of identifiers that occur within the text of the function’s code does it need to remember values for: free identifiers or bound identifiers?
+   1. **bound variables**
+4. Is static scoping more useful for variables than dynamic scoping? Explain why \(or why not\).
+
 ## Types
+
+---
 
 #### Question
 
