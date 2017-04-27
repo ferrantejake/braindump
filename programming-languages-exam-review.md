@@ -89,6 +89,8 @@ neither:  { X }
 
 ## Types
 
+---
+
 ### Question
 
 In Erlang, will there necessarily be a type error if one puts different types of elements in a single list, like the following?
