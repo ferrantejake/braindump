@@ -88,6 +88,21 @@ neither:  { X }
    1. **No, items can be talked about abstractly. See above.**
 7. In Haskell, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution
    1. **No, items can be talked about abstractly. See above.**
+8. Are parameters in Haskell and Erlang passed by reference? How do we know this?
+   1. No, they are passed by value. 
+9. How is functional \(declarative\) programming different from imperative programming?
+   1. **Imperative programming **telling the "machine" _how _to do something, and as a result _what _you want to happen will happen
+   2. **Declarative programming **telling the "machine" _what _you would like to happen, and let the computer figure out _how _to do it
+
+   For example, take the following SQL query
+
+```sql
+SELECT * from dogs
+INNER JOIN owners
+WHERE dogs.owner_id = owners.id
+```
+
+#### 
 
 #### Modules, Data Abstraction, Information Hiding
 
