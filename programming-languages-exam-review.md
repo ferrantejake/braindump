@@ -85,6 +85,7 @@ neither:  { X }
 6. In Erlang, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution?
    1. **No, items can be talked about abstractly. See above.**
 7. In Haskell, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution
+   1. **No, items can be talked about abstractly. See above.**
 
 ## Types
 
