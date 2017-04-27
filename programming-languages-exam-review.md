@@ -90,9 +90,9 @@ neither:  { X }
    1. **No, items can be talked about abstractly. See above.**
 8. Are parameters in Haskell and Erlang passed by reference? How do we know this?
    1. No, they are passed by value. 
-9. How is functional \(declarative\) programming different from imperative programming?
-   1. **Imperative programming **telling the "machine" _how _to do something, and as a result _what _you want to happen will happen
-   2. **Declarative programming **telling the "machine" _what _you would like to happen, and let the computer figure out _how _to do it
+9. How is functional \(declarative\) programming different from imperative programming?  
+   1. **Imperative programming **telling the "machine" _how_ to do something, and as a result _what_ you want to happen will happen  
+   2. **Declarative programming **telling the "machine" _what_ you would like to happen, and let the computer figure out \_how \_to do it
 
    For example, take the following SQL query
 
@@ -102,7 +102,27 @@ INNER JOIN owners
 WHERE dogs.owner_id = owners.id
 ```
 
-#### 
+SQL is a declarative language. Here we have abstracted away from how to do something and we focus more on what we want done. We let the machine worry about the best way \(_how_\) to go about getting that task done.
+
+Because we have abstracted over the
+
+_how_
+
+we can focus on the
+
+_what_
+
+and let the database optimise the
+
+_how_
+
+for us
+
+
+
+
+
+
 
 #### Modules, Data Abstraction, Information Hiding
 
