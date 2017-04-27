@@ -16,9 +16,9 @@ A quick synopsis of functions I've personally found helpful using Erlang
 | lists:member/2 | Elem, List-&gt; boolean | true if member |
 | lists:foldr/3 | fun, Acc, List -&gt; List | fold functions |
 | lists:sum/1 | List: number\[\] | sum a list |
-|  | List: any\[\] | drop last element |
-|  |  |  |
-|  |  |  |
+| lists: | List: any\[\] | drop last element |
+| hd/1 | List: any\[\] -&gt; T | head of list |
+| tail/1 | List: any -&gt; T\[\] | tail of list |
 
 # Syntax
 
@@ -52,7 +52,7 @@ receive
     <pattern 1> -> ;
     ...
     <pattern n> ->
-end, 
+end,
 ```
 
 
