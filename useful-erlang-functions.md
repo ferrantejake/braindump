@@ -45,7 +45,15 @@ if
 end.
 ```
 
-## 
+## Receive
+
+```erlang
+receive
+    <pattern 1> -> ;
+    ...
+    <pattern n> ->
+end, 
+```
 
 
 
