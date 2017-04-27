@@ -36,7 +36,21 @@ bound:    { X }
 neither:  { Y }
 ```
 
-### Typing
+### Question
+
+```erlang
+A(fun(A,B) -> A(foo(bar({what, fun(X,Y) -> plus(Y,3) end}))) end, I, J
+```
+
+### Answer
+
+```
+free:     { I, J, A, foo, bar, plus }
+bound:    { A, Y } 
+neither:  { X }
+```
+
+## Types
 
 #### Question
 
