@@ -126,7 +126,7 @@ start() ->
 % {PID, results}            -> return ballot tuples
 server(Candidates, Ballots) ->
     receive
-     % Respond with list of tuples
+         % Respond with list of tuples
         { PID, results } -> 
             PID ! { self(), ballots, Ballots },
             server(Candidates, Ballots);
@@ -148,20 +148,6 @@ server(Candidates, Ballots) ->
                     PID ! { self(), ok },
                     server(NewCandidates, NewBallots)
             end
-    end.
-
-% Cast a vote for a candidate.
-vote(ESID, Candidate) -> 
-    ESID ! { self(), vote, Candidate },
-    receive
-        { _, ok } -> ok
-    end.
-
-% View ballot results
-results(ESID) -> 
-    ESID ! { self(), results }, 
-    receive
-        { _, ballots, Ballots } -> lists:sort(Ballots)
     end.
 ```
 
