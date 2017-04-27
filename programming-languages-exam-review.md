@@ -63,6 +63,7 @@ neither:  { X }
 3. If a language makes closures for function values that are created at runtime, what kind of identifiers that occur within the text of the function’s code does it need to remember values for: free identifiers or bound identifiers?
    1. **bound variables**
 4. Is static scoping more useful for variables than dynamic scoping? Explain why \(or why not\).
+   1. **Depends on your application. I would argue that dynamic typing is more useful because you have more freedom as to what a variable can be. For example, dynamic typing allows lists to contain data of different types. This is something handy which static typing does not allow**
 
 ## Types
 
