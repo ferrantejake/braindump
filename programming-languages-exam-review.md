@@ -83,5 +83,28 @@ server(Table) ->
     end.end.
 ```
 
+## sharedvarserver
+
+A server with a state
+
+```erlang
+-module(sharedvarserver).
+-export([start/1, server/1]).
+
+start(V) -> 
+    spawn(?MODULE, server, [V]).
+
+server(S) ->
+    receive 
+        { Pid, { run, F }} -> 
+            NS = F(S),
+            Pid ! { self(), { result, NS}},
+            server(NewS);
+        { Pid, see } ->
+            Pid ! S,
+            server(S) 
+    end.
+```
+
 
 
