@@ -1,34 +1,40 @@
-# Tables of Contents
+# Concepts
 
-* Bounded and Unbounded Variables
+---
 
 ## Free and Bound Variables
+
+### Question
 
 ```Haskell
 concat(map(fun(Y) -> F(X,Y) end, (fun(Q,R) -> Q end)(LS,empty)))
 ```
 
-### Bound
+### Answer
 
 ```
-{ Y, Q }
-```
-
-### Free
-
-```
-{ X, LS, F, concat, map }
+bound:    { Y, Q }
+free:     { X, LS, F, concat, map }
+neither:  { R, empty }
 ```
 
 Notice that `concat` and `map` are free in this context because they are declared in some other module and not constrained to the current context.
 
-### Neither
-
-```
-{ R, empty }
-```
-
 R is never used. empty is an atom. From this information it follows that these structures are either neither bounded nor unbounded variables, as they were never variables to begin with.
+
+### Question
+
+```
+G(foo(G, G(length([zero, true, fun(X,Y) -> X(3) end]))))
+```
+
+### Answer
+
+```
+free:     { G, foo, length }
+bound:    { X } 
+neither:  { Y }
+```
 
 ### Typing
 
