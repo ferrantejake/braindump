@@ -19,6 +19,7 @@ A quick synopsis of functions I've personally found helpful using Erlang
 | lists: | List: any\[\] | drop last element |
 | hd/1 | List: any\[\] -&gt; T | head of list |
 | tail/1 | List: any -&gt; T\[\] | tail of list |
+| length/1 | List: any\[\] -&gt; number | length of list |
 
 # Syntax
 
