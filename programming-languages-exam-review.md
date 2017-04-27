@@ -93,7 +93,7 @@ neither:  { X }
    1. Using a high order function, you could manipulate the contents of a requested data structure using a passed function
 
 ```erlang
-fun(List, F) -> lists:map(List, F)
+fun(List, F) -> lists:map(F, List).
 ```
 
 1. How is representing an abstract data type, such as a stack of items different in Haskell than in Erlang?
