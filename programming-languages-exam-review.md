@@ -71,19 +71,22 @@ neither:  { X }
 
 #### Questions about type checking
 
-a\) \(5 pts\) By default, does Erlang do static or dynamic type checking? \(b\) \(5 pts\) What kind of type checking does Haskell do: static or dynamic? \(c\) \(5 pts\) Give a brief example of an expression in Erlang that generates a type error. \(d\) \(5 pts\) Which kind of type checking allows the programmer more flexibility: static or dynamic type checking? \(e\) \(5 pts\) Give an example, in Erlang, of an expression or program that will run without a type error that would not type check if it were translated into Haskell.
-
-\(f\) \(5 pts\) In Erlang, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution?
-
-\(g\) \(5 pts\) In Haskell, does the representation of every value need to be encoded in such a way that the runtime
-
-system can tell what its type is during program execution
+1. By default, does Erlang do static or dynamic type checking?
+   1. **Dynamic**
+2. What kind of type checking does Haskell do: static or dynamic?
+   1. **Dynamic**
+3. Give a brief example of an expression in Erlang that generates a type error.
+   1. **Attempting to read data using an invalid pattern matching pattern** 
+4. Which kind of type checking allows the programmer more flexibility: static or dynamic type checking? 
+   1. **Dynamic**
+5. Give an example, in Erlang, of an expression or program that will run without a type error that would not type check if it were translated into Haskell.
+   1. 
+6. In Erlang, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution?
+7. In Haskell, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution
 
 ## Types
 
----
-
-#### Question
+### Question
 
 In Erlang, will there necessarily be a type error if one puts different types of elements in a single list, like the following?
 
