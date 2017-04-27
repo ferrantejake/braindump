@@ -89,7 +89,7 @@ No, dynamic typing allows Erlang to have lists composed of different types. Type
 
 ## catalogserver
 
-A key/value database
+A key:value database
 
 ```erlang
 % Jake Ferrante
