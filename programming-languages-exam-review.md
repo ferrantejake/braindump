@@ -52,18 +52,32 @@ bound:    { A, Y }
 neither:  { X }
 ```
 
-## General
+## Q & A
 
 ---
+
+#### General
 
 1. How are variable names in Erlang scoped \(statically or dynamically\)?
    1. **Dynamically**
 2. Suppose a programming language has a way to create function values at runtime, like Erlang does. Explain how you can you tell if that language has static or dynamic scoping for variable names?
-   1. 
+   1. **something**
 3. If a language makes closures for function values that are created at runtime, what kind of identifiers that occur within the text of the function’s code does it need to remember values for: free identifiers or bound identifiers?
    1. **bound variables**
 4. Is static scoping more useful for variables than dynamic scoping? Explain why \(or why not\).
    1. **Depends on your application. I would argue that dynamic typing is more useful because you have more freedom as to what a variable can be. For example, dynamic typing allows lists to contain data of different types. This is something handy which static typing does not allow**
+5. How are exception handlers in Java \(or C\# or C++\) scoped \(statically or dynamically\)
+   1. **Statically. Java requests an exception type in the syntax.**
+
+#### Questions about type checking
+
+a\) \(5 pts\) By default, does Erlang do static or dynamic type checking? \(b\) \(5 pts\) What kind of type checking does Haskell do: static or dynamic? \(c\) \(5 pts\) Give a brief example of an expression in Erlang that generates a type error. \(d\) \(5 pts\) Which kind of type checking allows the programmer more flexibility: static or dynamic type checking? \(e\) \(5 pts\) Give an example, in Erlang, of an expression or program that will run without a type error that would not type check if it were translated into Haskell.
+
+\(f\) \(5 pts\) In Erlang, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution?
+
+\(g\) \(5 pts\) In Haskell, does the representation of every value need to be encoded in such a way that the runtime
+
+system can tell what its type is during program execution
 
 ## Types
 
