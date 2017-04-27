@@ -44,7 +44,7 @@ Answer “yes” or “no” and give a brief justification:
 
 #### Answer
 
-No, dynamic typing allows Erlang to have lists composed of different types. Type is known at runtime for each element of the list.
+No, dynamic typing allows Erlang to have lists composed of different types. Type is known at runtime for each element of the list. The only case where one would receive a type error is trying to access the data using inappropriate pattern matching.
 
 # Examples
 
