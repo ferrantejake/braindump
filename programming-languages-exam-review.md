@@ -104,26 +104,6 @@ WHERE dogs.owner_id = owners.id
 
 SQL is a declarative language. Here we have abstracted away from how to do something and we focus more on what we want done. We let the machine worry about the best way \(_how_\) to go about getting that task done.
 
-Because we have abstracted over the
-
-_how_
-
-we can focus on the
-
-_what_
-
-and let the database optimise the
-
-_how_
-
-for us
-
-
-
-
-
-
-
 #### Modules, Data Abstraction, Information Hiding
 
 1. Briefly describe how one could implement an abstract data type, such as a stack of items, in Erlang in such a way that the internal implementation details of the stack are completely hidden? \(You don’t have to provide code, but you can show what it would look like if you wish.\)
