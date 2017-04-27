@@ -30,6 +30,22 @@ Notice that `concat` and `map` are free in this context because they are declare
 
 R is never used. empty is an atom. From this information it follows that these structures are either neither bounded nor unbounded variables, as they were never variables to begin with.
 
+### Typing
+
+#### Question
+
+In Erlang, will there necessarily be a type error if one puts different types of elements in a single list, like the following?
+
+```erlang
+[3, true, foo, '$c', [1,2], [ok,sure], 5.2, self()]
+```
+
+Answer “yes” or “no” and give a brief justification:
+
+#### Answer
+
+No, dynamic typing allows Erlang to have lists composed of different types. Type is known at runtime for each element of the list.
+
 # Examples
 
 ---
