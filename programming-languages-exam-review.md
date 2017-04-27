@@ -265,5 +265,24 @@ server(Candidates, Ballots) ->
     end.
 ```
 
+## recursion
+
+regular and tail recursion
+
+```erlang
+-module(recursion).
+-export([mylength/1, len/1, len/2]).
+
+mylength([]) ->
+    0; 
+mylength([_ | T]) ->
+    1 + mylength(T).
+
+% Tail recursive functio
+len(Ls)         -> len(Ls, 0).
+len([], N)      -> N;
+len([_|T],N)    -> len(T,N+1).
+```
+
 
 
