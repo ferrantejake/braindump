@@ -64,9 +64,11 @@ neither:  { X }
    1. **something**
 3. If a language makes closures for function values that are created at runtime, what kind of identifiers that occur within the text of the function’s code does it need to remember values for: free identifiers or bound identifiers?
    1. **bound variables**
-4. Is static scoping more useful for variables than dynamic scoping? Explain why \(or why not\).
+4. Is static typing or dynamic typing more useful? Explain why \(or why not\).
+5. 6. Is static scoping more useful for variables than dynamic scoping? Explain why \(or why not\).
    1. **Depends on your application. I would argue that dynamic typing is more useful because you have more freedom as to what a variable can be. For example, dynamic typing allows lists to contain data of different types. This is something handy which static typing does not allow**
-5. How are exception handlers in Java \(or C\# or C++\) scoped \(statically or dynamically\)
+   2. **Many programming languages - and for good reason - use static scoping. This is because it is easier to reason about in the code. In terms of being able to easily understand a program, static typing would be more useful to the programmer. **
+7. How are exception handlers in Java \(or C\# or C++\) scoped \(statically or dynamically\)
    1. **Statically. Java requests an exception type in the syntax.**
 
 #### Questions about type checking
@@ -97,8 +99,8 @@ fun(List, F) -> lists:map(F, List).
 ```
 
 1. How is representing an abstract data type, such as a stack of items different in Haskell than in Erlang?
-2. Is data abstraction \(the hiding of implementation details\) enforced in Java \(or C\#\) in a way that is more
-    like Haskell or more like Erlang? Choose either Haskell or Erlang, and give a brief explanation of why.
+   1. 
+2. Is data abstraction \(the hiding of implementation details\) enforced in Java \(or C\#\) in a way that is more like Haskell or more like Erlang? Choose either Haskell or Erlang, and give a brief explanation of why.
 
 ## Types
 
