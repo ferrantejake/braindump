@@ -106,5 +106,64 @@ server(S) ->
     end.
 ```
 
+## election
+
+```erlang
+% Jake Ferrante
+% Spec module
+
+-module(election). 
+-export([start/0, vote/2, results/1]).
+
+% Start an election server with 0 votes cast.
+start() -> 
+    Candidates = [],
+    Ballots = [],
+    spawn(fun() -> server(Candidates, Ballots) end).
+
+% Patterns:
+% {PID, vote, Candidate}    -> add candidate and vote
+% {PID, results}            -> return ballot tuples
+server(Candidates, Ballots) ->
+    receive
+     % Respond with list of tuples
+        { PID, results } -> 
+            PID ! { self(), ballots, Ballots },
+            server(Candidates, Ballots);
+        { PID, vote, Candidate } ->
+            case lists:member(Candidate, Candidates) of 
+                % If candidate exits, increment votes
+                true -> 
+                    P = fun({C, V}, Acc) -> 
+                            if C == Candidate -> Acc ++ [{C, V+1}]
+                             ; true -> Acc ++ [{C, V}] end 
+                        end,
+                    NewBallots = lists:foldl(P, [], Ballots),
+                    PID ! { self(), ok },
+                    server(Candidates, NewBallots);
+                % If candidate DNE, add to ballot with 1 vote
+                false -> 
+                    NewCandidates = Candidates ++ [Candidate],
+                    NewBallots = Ballots ++ [{Candidate, 1}],
+                    PID ! { self(), ok },
+                    server(NewCandidates, NewBallots)
+            end
+    end.
+
+% Cast a vote for a candidate.
+vote(ESID, Candidate) -> 
+    ESID ! { self(), vote, Candidate },
+    receive
+        { _, ok } -> ok
+    end.
+
+% View ballot results
+results(ESID) -> 
+    ESID ! { self(), results }, 
+    receive
+        { _, ballots, Ballots } -> lists:sort(Ballots)
+    end.
+```
+
 
 
