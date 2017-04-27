@@ -83,6 +83,7 @@ neither:  { X }
    1. `P = fun(Obj, Acc) -> Acc end, lists:foldr(P, void, [{key, value}]).`
       1. This would run without issue because the object `{key, value}` can be generalized into a single entity, `Obj` . If this ran in Haskell, it would not get type checked because `Obj` is never used.
 6. In Erlang, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution?
+   1. **No, items can be talked about abstractly. See above.**
 7. In Haskell, does the representation of every value need to be encoded in such a way that the runtime system can tell what its type is during program execution
 
 ## Types
