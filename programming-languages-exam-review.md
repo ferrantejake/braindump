@@ -90,8 +90,15 @@ neither:  { X }
 #### Modules, Data Abstraction, Information Hiding
 
 1. Briefly describe how one could implement an abstract data type, such as a stack of items, in Erlang in such a way that the internal implementation details of the stack are completely hidden? \(You don’t have to provide code, but you can show what it would look like if you wish.\)
-2. How is representing an abstract data type, such as a stack of items different in Haskell than in Erlang?
-3. Is data abstraction \(the hiding of implementation details\) enforced in Java \(or C\#\) in a way that is more    like Haskell or more like Erlang? Choose either Haskell or Erlang, and give a brief explanation of why.
+   1. Using a high order function, you could manipulate the contents of a requested data structure using a passed function
+
+```erlang
+fun(List, F) -> lists:map(List, F)
+```
+
+1. How is representing an abstract data type, such as a stack of items different in Haskell than in Erlang?
+2. Is data abstraction \(the hiding of implementation details\) enforced in Java \(or C\#\) in a way that is more
+    like Haskell or more like Erlang? Choose either Haskell or Erlang, and give a brief explanation of why.
 
 ## Types
 
