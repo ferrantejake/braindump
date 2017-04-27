@@ -114,8 +114,9 @@ fun(List, F) -> lists:map(F, List).
 ```
 
 1. How is representing an abstract data type, such as a stack of items different in Haskell than in Erlang?
-   1. 
+   1. &lt;something&gt;
 2. Is data abstraction \(the hiding of implementation details\) enforced in Java \(or C\#\) in a way that is more like Haskell or more like Erlang? Choose either Haskell or Erlang, and give a brief explanation of why.
+   1. &lt;something&gt;
 
 ## Types
 
