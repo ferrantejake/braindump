@@ -277,7 +277,7 @@ regular and tail recursion
 mylength([])      -> 0; 
 mylength([_ | T]) -> 1 + mylength(T).
 
-% Tail recursive functio
+% Tail recursive function
 len(Ls)         -> len(Ls, 0).
 len([], N)      -> N;
 len([_|T],N)    -> len(T,N+1).
