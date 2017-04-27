@@ -7,11 +7,13 @@ LearnYouSomeErlang is an extremely useful document: [http://learnyousomeerlang.c
 
 A quick synopsis of functions I've personally found helpful using Erlang
 
-| lists:member\(Elem, List\) -&gt; boolean\(\) | true if member is in list |
-| :--- | :--- |
-| lists:foldr\(Fun, Acc, \[T\(\)\]\) -&gt; Any                                                  lists:foldr\(Fun, Acc, \[T\(\)\]\) -&gt; Any | fold functions |
-| lists:sum\(\[number\(\)\]\) | sum a list |
-|  |  |
+| Function | Parameters | Description |
+| :--- | :--- | :--- |
+| lists:member/2 | Elem, List-&gt; boolean | true if member |
+| lists:foldr/3 | fun, Acc, List -&gt; List | fold functions |
+| lists:sum/1 | List: number\[\] | sum a list |
+| lists:droplast/1 | List: any\[\] | drop last element |
+|  |  |  |
 
 ---
 
@@ -24,6 +26,7 @@ case <expr> of
     <pat 1> -> <body1> ;
     <pat 2> -> <body2> ;
     ...
+    <pat n> -> <bodyn> 
 end
 ```
 
@@ -33,7 +36,7 @@ end
 if 
     some_condition -> some_code;
     some_other_condition -> some_other_code;
-    true -> else_code
+    true -> ok
 end.
 ```
 
