@@ -20,6 +20,17 @@ A quick synopsis of functions I've personally found helpful using Erlang
 | hd/1 | List: any\[\] -&gt; T | head of list |
 | tail/1 | List: any -&gt; T\[\] | tail of list |
 | length/1 | List: any\[\] -&gt; number | length of list |
+| size/1 | &lt;Tuple/Binary&gt; -&gt; number | size of object |
+
+# Syntactic Sugars
+
+---
+
+All lists in Erlang are represented by lists of base 10 digits.
+
+```
+"jake" = [106, 97, 107, 101] = 
+```
 
 # Syntax
 
