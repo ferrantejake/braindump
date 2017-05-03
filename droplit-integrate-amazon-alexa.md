@@ -45,7 +45,9 @@ If you have not configured an identity service provider, then take a look at [th
 4. Open open your newly installed Amazon Alexa Skill conduit
    1. Here we should see some documentation for the conduit's settings, incluiding the `Authorization URL`, `Client Id`, and others.
 
-### Configure Alexa Skill
+### Configure Alexa for Droplit
+
+#### Alexa Configuration Dashboard
 
 1. Use the information from the Droplit Alexa Skill conduit configuration to setup the following fields in the Amazon Developer Console Alexa Skill configuration
    1. Authorization URL
@@ -58,6 +60,19 @@ If you have not configured an identity service provider, then take a look at [th
 2. Complete the following:
    1. Select **Auth Code Grant** for Authorization Grant Type
    2. Select **HTTP Basic** for Client Authentication Scheme
+
+#### Droplit Alexa Skill
+
+1. Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
+   1. Redirect URL
+      1. This can be either provided url. They should look similar to the following:
+         1. **https://layla.amazon.com/api/skill/link/M2NGQSTDAAUR23**
+         2. **https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23**
+   2. Alexa Skill ARN
+
+
+
+
 
 ## Conclusion
 
