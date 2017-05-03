@@ -65,10 +65,11 @@ If you have not configured an identity service provider, then take a look at [th
 
 1. Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
    1. Redirect URL
-      1. This can be either provided URL. They should look similar to the following:
+      1. This can be either provided URL. The urls provided in the Amazon Developer Dashboard Alexa Configuration should look similar to the following:
          1. [https://layla.amazon.com/api/skill/link/M2NGQSTDAAUR23](https://layla.amazon.com/api/skill/link/M2NGQSTDAAUR23)
          2. [https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23](https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23)
    2. Alexa Skill ARN
+      1. This field requires the **Application ID** located in the **Skill Information **page on the Amazon Developer Dashboard.
 
 ## Conclusion
 
