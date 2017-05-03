@@ -50,11 +50,16 @@ If you have not configured an identity service provider, then take a look at [th
 1. Use the information from the Droplit Alexa Skill conduit configuration to setup the following fields in the Amazon Developer Console Alexa Skill configuration
    1. Authorization URL
    2. Client Id
-   3. 4. Scope
+   3. Domain List
+      1. An important note: these are the domains associated with Droplit which will be visited during the authorization process. If one needs to authenticate with another service such as Auth0 and/or Facebook, then they will require the domains associated with making that transaction.
+   4. Scope
    5. Access Token URI
-   6. 
+   6. Client Secret
+2. Complete the following:
+   1. Select **Auth Code Grant** for Authorization Grant Type
+   2. Select **HTTP Basic** for Client Authentication Scheme
 
-## Conlusion
+## Conclusion
 
 ---
 
