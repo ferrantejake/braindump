@@ -63,6 +63,12 @@ If you have not configured an identity service provider, then take a look at [th
    1. Select **Auth Code Grant** for Authorization Grant Type
    2. Select **HTTP Basic** for Client Authentication Scheme
 
+#### Choose Your Lambda Function
+
+You can choose to use Droplit's \(recommended\) provided Lambda function, or you can use your own. For more information on this, visit &lt;Configure Droplit AWS Lambda Function&gt;. In the mean time, we can use the provided Droplit AWS Lambda function
+
+**Droplit Lambda Function**: _arn:aws:lambda:us-east-1:428766893289:function:droplitSmartHomeAdapter_
+
 #### Droplit Alexa Skill
 
 1. Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
