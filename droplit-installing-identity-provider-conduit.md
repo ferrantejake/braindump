@@ -32,6 +32,8 @@ Configure an Identity Provider - We will explore Auth0
 1. Go to clients \(left side panel\)
 2. Click "Create Client" button
 3. Choose "Regular Web Application"
+4. Add the following callback urls to your new client
+   1. https://yo.droplit.io/oauth2/callback
 
 ### Install Droplit Auth0 conduit
 
