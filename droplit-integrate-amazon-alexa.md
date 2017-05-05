@@ -73,7 +73,7 @@ You can choose to use Droplit's \(recommended\) provided Lambda function, or you
 
 1. Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
    1. Redirect URL
-      1. There are two URLs provided in the Amazon Developer Dashboard Alexa Configuration. Use the URL which appears similar to the following 
+      1. There are two URLs provided in the Amazon Developer Dashboard Alexa Configuration. Use the URL which appears similar to the following:
          1. [https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23](https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23)
    2. Alexa Skill ARN
       1. This field requires the **Application ID** located in the **Skill Information **page on the Amazon Developer Dashboard.
