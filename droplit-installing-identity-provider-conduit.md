@@ -2,24 +2,13 @@
 
 ## Overview
 
-This walkthrough shows you how to install the Dropliot Auth0 skill, set up a compatible Auth0 client, and configure the two to work together to provide authentication for your ecosystem. It consists of 3 parts: 
+This walkthrough shows you how to install the Dropliot Auth0 skill, set up a compatible Auth0 client, and configure the two to work together to provide authentication for your ecosystem. It consists of 3 parts:
 
 * Create/Configure Auth0 Client
 * Install Droplit Auth0 Skill
-* Configure 
+* Configure Droplit Auth0 skill to communicate with Auth0 client 
 
 A user needs to authenticate with your service and you allow users to authenticate through some internal or 3rd party service such as Facebook, Auth0, Microsoft, Google, etc. This is typically using the oAuth standard.
-
-## Objective
-
-Configure an Identity Provider - We will explore Auth0
-
-## Prerequesites
-
-### Create an Auth0 A
-
-* Auth0 account
-* Droplit account
 
 ## Configure Auth0 Client
 
