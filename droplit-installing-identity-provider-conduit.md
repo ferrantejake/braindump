@@ -25,6 +25,10 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
    1. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
 5. Set the token endpoint authentication method to **POST**
 
+### Enable Service Providers
+
+This is necessary if you are aiming to offload 
+
 ### Install Droplit Auth0 conduit
 
 1. In a new tab, go to [http://portal.droplit.io/](http://portal.droplit.io/) and sign in
@@ -44,9 +48,5 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
 4. Copy/paste the Client ID, Client Secret, and Domain information from the Auth0 website in the Droplit Auth0 conduit portal configuration
 5. Save your Droplit Auth0 conduit configuration
 
-## Conclusion
 
----
-
-Congratulations, you've completed setting up an Auth0 identity service provider. You can now authenticate with the Auth0 service.
 
