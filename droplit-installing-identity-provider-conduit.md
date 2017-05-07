@@ -20,8 +20,8 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
 
 1. Log into Auth0 account
 2. In the left side panel, click **Clients**
-3. Click "Create Client" button
-4. Choose "Regular Web Application"
+3. Click "**Create Client**" button
+4. Choose "**Regular Web Application**"
 
 This will now drop you at the quick start page for your client. Proceed with the following steps to configure your new client
 
@@ -29,7 +29,7 @@ This will now drop you at the quick start page for your client. Proceed with the
 2. 1. Add the following callback urls
    2. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
 3. Set the token endpoint authentication method to **POST**
-4. Make sure to save your changes by clicking the "Save Changes" button at the bottom of the page
+4. Make sure to save your changes by clicking the "**Save Changes**" button at the bottom of the page
 
 ### Enable Service Providers
 
