@@ -14,7 +14,7 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
 
 ## Get an Auth0 account
 
-[Create an account](https://auth0.com) with Auth0 
+[Create an account](https://auth0.com) with Auth0
 
 ## Create an Auth0 client
 
@@ -26,17 +26,17 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
 This will now drop you at the quick start page for your client. Proceed with the following steps to configure your new client
 
 1. Click the **Settings** tab in your new client
-2. 3. Add the following callback urls
-   1. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
-4. Set the token endpoint authentication method to **POST**
-5. Make sure to save your changes by clicking the "Save Changes" button at the bottom of the page
+2. 1. Add the following callback urls
+   2. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
+3. Set the token endpoint authentication method to **POST**
+4. Make sure to save your changes by clicking the "Save Changes" button at the bottom of the page
 
 ### Enable Service Providers
 
 This is necessary if you are aiming to allow users to authentication with 3rd party providers such as Facebook and Twitter.
 
 1. In the left site panel, click **Connections **then from the drop down, **Social**
-2. Enable your providers as you see it and configure to your settings
+2. Enable your providers as you see it and configure to your provider's settings
 
 ### Install Droplit Auth0 conduit
 
