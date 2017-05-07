@@ -51,7 +51,7 @@ In a new tab, [open the Droplit Developer Portal](http://portal.droplit.io/)  an
 5. Label your conduit aptly - you have one for this ecosystem!
    1. Names only appear in the Developer console, so this is more for internal benefit of knowing what the conduit is. Labels on the other hand are how you will references the conduit in the CLI so give this a easy to remember, concise name.
 
-### Configure Auth0 client with Droplit Auth0 conduit
+# Configure Auth0 Client With Droplit Auth0 Conduit
 
 1. In the Droplit portal, click on your newly installed Droplit Auth0 conduit
    1. You should see three input fields: Client Id, Client Secret, Domain
