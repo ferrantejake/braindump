@@ -26,8 +26,8 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
 This will now drop you at the quick start page for your client. Proceed with the following steps to configure your new client
 
 1. Click the **Settings** tab in your new client
-2. 1. Add the following callback urls
-   2. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
+2. Add the following callback urls
+   1. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
 3. Set the token endpoint authentication method to **POST**
 4. Make sure to save your changes by clicking the "**Save Changes**" button at the bottom of the page
 
@@ -40,13 +40,14 @@ This is necessary if you are aiming to allow users to authentication with 3rd pa
 
 # Install Droplit Auth0 Skill
 
-1. In a new tab, go to [http://portal.droplit.io/](http://portal.droplit.io/) and sign in
-2. Click "Ecosystems" \(side-left panel\) and select your desired ecosystem
+In a new tab, go to [http://portal.droplit.io/](http://portal.droplit.io/) and sign in
+
+1. Click "Ecosystems" \(side-left panel\) and select your desired ecosystem
    1. conduits are ecosystem-wide, so we do not need to select an environment
-3. Click "Conduits" to open the "Conduits" view
-4. Click the "Auth0" conduit and open the Auth0 conduit options
-5. Click "Install"
-6. Label your conduit aptly - you have one for this ecosystem :\)
+2. Click "Conduits" to open the "Conduits" view
+3. Click the "Auth0" conduit and open the Auth0 conduit options
+4. Click "Install"
+5. Label your conduit aptly - you have one for this ecosystem :\)
 
 ### Configure Auth0 client with Droplit Auth0 conduit
 
