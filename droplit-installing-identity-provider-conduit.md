@@ -27,7 +27,7 @@ This will now drop you at the quick start page for your client. Proceed with the
 
 1. Click the **Settings** tab in your new client
 2. Add the following callback urls
-   1. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
+   1. https://yo.droplit.io/oauth2/callback
 3. Set the token endpoint authentication method to **POST**
 4. Make sure to save your changes by clicking the "**Save Changes**" button at the bottom of the page
 
