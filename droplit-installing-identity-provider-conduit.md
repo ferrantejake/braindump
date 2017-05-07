@@ -1,6 +1,6 @@
 # Install Auth0 Skill
 
-## Overview
+# Overview
 
 This walkthrough shows you how to install the Dropliot Auth0 skill, set up a compatible Auth0 client, and configure the two to work together to provide authentication for your ecosystem. It consists of 3 parts:
 
@@ -10,24 +10,33 @@ This walkthrough shows you how to install the Dropliot Auth0 skill, set up a com
 
 Once this is completed, users in your ecosystem will be able to authenticate through Atuh0 using one of Auth0's 3rd party service such as Facebook, Auth0, Microsoft, Google, etc.
 
-## Configure Auth0 Client
+# Configure Auth0 Client
 
-### Get an Auth0 account
+## Get an Auth0 account
 
-1. Go to [https://auth0.com](https://auth0.com) and create an account
+[Create an account](https://auth0.com) with Auth0 
 
-### Create an Auth0 client
+## Create an Auth0 client
 
-1. Go to clients \(left side panel\)
-2. Click "Create Client" button
-3. Choose "Regular Web Application"
-4. Add the following callback urls to your new client
+1. Log into Auth0 account
+2. In the left side panel, click **Clients**
+3. Click "Create Client" button
+4. Choose "Regular Web Application"
+
+This will now drop you at the quick start page for your client. Proceed with the following steps to configure your new client
+
+1. Click the **Settings** tab in your new client
+2. 3. Add the following callback urls
    1. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
-5. Set the token endpoint authentication method to **POST**
+4. Set the token endpoint authentication method to **POST**
+5. Make sure to save your changes by clicking the "Save Changes" button at the bottom of the page
 
 ### Enable Service Providers
 
-This is necessary if you are aiming to offload 
+This is necessary if you are aiming to allow users to authentication with 3rd party providers such as Facebook and Twitter.
+
+1. In the left site panel, click **Connections **then from the drop down, **Social**
+2. Enable your providers as you see it and configure to your settings
 
 ### Install Droplit Auth0 conduit
 
