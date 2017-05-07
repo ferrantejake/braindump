@@ -38,7 +38,7 @@ This is necessary if you are aiming to allow users to authentication with 3rd pa
 1. In the left site panel, click **Connections **then from the drop down, **Social**
 2. Enable your providers as you see it and configure to your provider's settings
 
-# Install Droplit Auth0 Skill
+# Install Droplit Auth0 Conduit
 
 In a new tab, [open the Droplit Developer Portal](http://portal.droplit.io/)  and sign in
 
@@ -48,7 +48,7 @@ In a new tab, [open the Droplit Developer Portal](http://portal.droplit.io/)  an
 2. Click **Conduits** to open the Conduits view
 3. Click the Auth0 conduit and open the Auth0 conduit options
 4. Click "**Install"**
-5. Label your conduit aptly - you have one for this ecosystem :\)
+5. Label your conduit aptly - you have one for this ecosystem!
    1. Names only appear in the Developer console, so this is more for internal benefit of knowing what the conduit is. Labels on the other hand are how you will references the conduit in the CLI so give this a easy to remember, concise name.
 
 ### Configure Auth0 client with Droplit Auth0 conduit
