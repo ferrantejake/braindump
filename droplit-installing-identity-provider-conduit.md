@@ -1,4 +1,4 @@
-# Install Droplit Auth0 Skill
+# Install Droplit Auth0 Conduit
 
 # Overview
 
