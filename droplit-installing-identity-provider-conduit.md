@@ -20,16 +20,16 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
 
 1. Log into Auth0 account
 2. In the left side panel, click **Clients**
-3. Click "**Create Client**" button
-4. Choose "**Regular Web Application**"
+3. Click **Create Client** button
+4. Choose **Regular Web Application**
 
 This will now drop you at the quick start page for your client. Proceed with the following steps to configure your new client
 
 1. Click the **Settings** tab in your new client
 2. Add the following callback urls
-   1. https://yo.droplit.io/oauth2/callback
+   1. [https://yo.droplit.io/oauth2/callback](https://yo.droplit.io/oauth2/callback)
 3. Set the token endpoint authentication method to **POST**
-4. Make sure to save your changes by clicking the "**Save Changes**" button at the bottom of the page
+4. Make sure to save your changes by clicking the **Save Changes** button at the bottom of the page
 
 ### Enable Service Providers
 
@@ -47,7 +47,7 @@ In a new tab, [open the Droplit Developer Portal](http://portal.droplit.io/)  an
 1. In the left side panel, click **Ecosystems **and select your desired ecosystem
 2. Click **Conduits** to open the Conduits view
 3. Click the Auth0 conduit and open the Auth0 conduit options
-4. Click "**Install"**
+4. Click **Install**
 5. Label your conduit aptly - you have one for this ecosystem!
    1. Names only appear in the Developer console, so this is more for internal benefit of knowing what the conduit is. Labels on the other hand are how you will references the conduit in the CLI so give this a easy to remember, concise name.
 
