@@ -10,7 +10,7 @@ This walkthrough shows you how to install the Dropliot Auth0 skill, set up a com
 
 Once this is completed, users in your ecosystem will be able to authenticate through Atuh0 using one of Auth0's 3rd party service such as Facebook, Auth0, Microsoft, Google, etc.
 
-# Configure Auth0 Client
+# Setup Auth0 Client
 
 ## Get an Auth0 account
 
@@ -38,7 +38,7 @@ This is necessary if you are aiming to allow users to authentication with 3rd pa
 1. In the left site panel, click **Connections **then from the drop down, **Social**
 2. Enable your providers as you see it and configure to your provider's settings
 
-### Install Droplit Auth0 Skill
+# Install Droplit Auth0 Skill
 
 1. In a new tab, go to [http://portal.droplit.io/](http://portal.droplit.io/) and sign in
 2. Click "Ecosystems" \(side-left panel\) and select your desired ecosystem
