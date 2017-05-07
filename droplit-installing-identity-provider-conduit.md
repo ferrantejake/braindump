@@ -1,3 +1,5 @@
+# Install Droplit Auth0 Skill
+
 # Overview
 
 This walkthrough shows you how to install the Dropliot Auth0 skill, set up a compatible Auth0 client, and configure the two to work together to provide authentication for your ecosystem. It consists of 3 parts:
