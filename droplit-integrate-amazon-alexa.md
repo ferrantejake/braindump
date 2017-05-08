@@ -1,10 +1,6 @@
-# Amazon Alexa Droplit Integration
+# Amazon Alexa Skill Droplit Integration
 
 # Overview
-
-You are have a service you are providing/creating and would like to control your devices using Amazon Alexa's voice control services. We can do that.
-
-
 
 This walkthrough shows you how to integrate Alexa voice services with your Droplit account. This consists of the following steps:
 
@@ -12,7 +8,7 @@ This walkthrough shows you how to integrate Alexa voice services with your Dropl
 * Create/Configure Droplit Alexa skill conduit \(Droplit Dashboard\)
 * Configure Droplit Alexa skill conduit to communicate with Auth0 client 
 
-Once this is completed, users in your ecosystem will be able to authenticate through either Auth0 or one of Auth0's 3rd party services such as Facebook, Microsoft, Google, etc.
+Once this is completed, users in your ecosystem will be able to use Alexa voice services though devices like the Echo, Echo dot, or services like [Echosim](https://echosim.io/welcome?next=%2F) wherever Alexa voice services are supported, to control devices on the Droplit platform.
 
 # Prerequisites
 
