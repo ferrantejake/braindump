@@ -12,7 +12,7 @@ Once this is completed, users in your ecosystem will be able to authenticate thr
 
 # Setup Auth0 Client
 
-Here we are creating an Auth0 client which will be able to handle user logins through either Auth0's identity provider system or alternatively through once of the available 3rd party identity provider systems.
+An Auth0 client enables you to handle user logins through either Auth0's identity provider system or alternatively through once of the available 3rd party identity provider systems. 
 
 ## Get an Auth0 account
 
@@ -33,14 +33,14 @@ This will now drop you at the quick start page for your client. Proceed with the
 
 ## Enable Service Providers
 
-This is necessary if you are aiming to allow users to authentication with 3rd party providers such as Facebook and Twitter.
+Enabling service providers allows users to authenticate with 3rd party services such as Facebook and Twitter.
 
 1. In the left site panel, click **Connections **then from the drop down, **Social**
 2. Enable your providers as you see it and configure to your provider's settings
 
 # Install Droplit Auth0 Conduit
 
-Here we are installing the Droplit Conduit which will facilitate communication to thye Auth0 client.
+The Droplit Conduit facilitates communication between Droplit and the the Auth0 client. This allows users to authenticate with Auth0 through the Droplit system, and your app.
 
 In a new tab, [open the Droplit Developer Portal](http://portal.droplit.io/)  and sign in
 
