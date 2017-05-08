@@ -19,9 +19,9 @@ Once this is completed, users in your ecosystem will be able to use Alexa voice 
 
 If you have not configured an identity service provider, then take a look at [configuring the Auth0 identity service provider conduit](https://ferrantejake.gitbooks.io/braindump/content/droplit-installing-identity-provider-conduit.html).
 
-## Configure Amazon Alexa With Droplit
+# Configure Amazon Alexa With Droplit
 
-### Create Amazon Alexa Skill
+## Create Amazon Alexa Skill
 
 1. [Sign into your Amazon Developer account](https://developer.amazon.com)
 2. Select the **Alexa** tab and navigate to the **Alexa Skills Kit** 
@@ -32,11 +32,9 @@ If you have not configured an identity service provider, then take a look at [co
 | :--- | :--- |
 
 
-
-
 We will come back to this, so make sure to keep the tab open and save your work
 
-### Install Droplit Amazon Alexa Skill
+## Install Droplit Amazon Alexa Skill
 
 1. In a new tab go to [http://portal.droplit.io](http://portal.droplit.io) and sign in
 2. Click "Conduits" \(side-left panel\) to open the conduits view
@@ -45,9 +43,9 @@ We will come back to this, so make sure to keep the tab open and save your work
 4. Open open your newly installed Amazon Alexa Skill conduit
    1. Here we should see some documentation for the conduit's settings, incluiding the `Authorization URL`, `Client Id`, and others.
 
-### Configure Alexa for Droplit
+## Configure Alexa for Droplit
 
-#### Alexa Configuration Dashboard
+### Alexa Configuration Dashboard
 
 1. Use the information from the Droplit Alexa Skill conduit configuration to setup the following fields in the Amazon Developer Console Alexa Skill configuration
    1. Authorization URL
@@ -61,13 +59,13 @@ We will come back to this, so make sure to keep the tab open and save your work
    1. Select **Auth Code Grant** for Authorization Grant Type
    2. Select **HTTP Basic** for Client Authentication Scheme
 
-#### Choose Your Lambda Function
+### Choose Your Lambda Function
 
 You can choose to use Droplit's \(recommended\) provided Lambda function, or you can use your own. For more information on this, visit &lt;Configure Droplit AWS Lambda Function&gt;. In the mean time, we can use the provided Droplit AWS Lambda function
 
 **Droplit Lambda Function**: _arn:aws:lambda:us-east-1:428766893289:function:droplitSmartHomeAdapter_
 
-#### Droplit Alexa Skill
+### Droplit Alexa Skill
 
 1. Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
    1. Redirect URL
