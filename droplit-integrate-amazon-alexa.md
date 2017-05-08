@@ -13,14 +13,11 @@ Once this is completed, users in your ecosystem will be able to use Alexa voice 
 # Prerequisites
 
 * Amazon Alexa Developer account
-* -
 * Amazon Alexa App
-* A configured Identity Service Provider 
-* Droplit account
-* Droplit Ecosystem
+* A configured Identity Service Provider
 * Droplit Environment \(only required for testing\)
 
-If you have not configured an identity service provider, then take a look at this article for more information on setting up your Droplit acount with Auth0 as your identity service provider.
+If you have not configured an identity service provider, then take a look at [configuring the Auth0 identity service provider conduit](https://ferrantejake.gitbooks.io/braindump/content/droplit-installing-identity-provider-conduit.html).
 
 ## Configure Amazon Alexa With Droplit
 
@@ -28,8 +25,14 @@ If you have not configured an identity service provider, then take a look at thi
 
 1. [Sign into your Amazon Developer account](https://developer.amazon.com)
 2. Select the **Alexa** tab and navigate to the **Alexa Skills Kit** 
-3. Whether you are creating a new skill or integrating a pre-existing one, make sure it is configured to use the **Smart Home Skill API**. This option can be configured under `Skill Infoirmation>Skill Type` in your skill's configuration settings
-   1. We will come back to this, so make sure to keep the tab open and save your work
+3. Whether you are creating a new skill or integrating a pre-existing one, make sure it is configured to use the **Smart Home Skill API**. This option can be configured under **Skill Information** **&gt;** **Skill Type** in your skill's configuration settings
+4. Choose your skill's name, invocation name mark the following global fields as follow
+
+| Audio Player | No |
+| :--- | :--- |
+
+
+We will come back to this, so make sure to keep the tab open and save your work
 
 ### Install Droplit Amazon Alexa Skill
 
