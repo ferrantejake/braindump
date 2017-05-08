@@ -31,7 +31,7 @@ This will now drop you at the quick start page for your client. Proceed with the
 2. Set the token endpoint authentication method to **POST**
 3. Make sure to save your changes by clicking the **Save Changes** button at the bottom of the page
 
-### Enable Service Providers
+## Enable Service Providers
 
 This is necessary if you are aiming to allow users to authentication with 3rd party providers such as Facebook and Twitter.
 
