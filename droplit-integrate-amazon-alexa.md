@@ -1,20 +1,20 @@
-# Integrate Amazon Alexa
+# Amazon Alexa Droplit Integration
 
-## Scenario
-
----
+# Overview
 
 You are have a service you are providing/creating and would like to control your devices using Amazon Alexa's voice control services. We can do that.
 
-## Objective
 
----
 
-Configure Droplit Amazon Alexa conduit to work with your Amazon Alexa account.
+This walkthrough shows you how to integrate Alexa voice services with your Droplit account. This consists of the following steps:
 
-## Requirements
+* Create/Configure Alexa skill \(AWS Developer Dashboard\)
+* Create/Configure Droplit Alexa skill conduit \(Droplit Dashboard\)
+* Configure Droplit Alexa skill conduit to communicate with Auth0 client 
 
----
+Once this is completed, users in your ecosystem will be able to authenticate through either Auth0 or one of Auth0's 3rd party services such as Facebook, Microsoft, Google, etc.
+
+# Prerequisites
 
 * A working Amazon Alexa skill
 * Amazon Alexa Developer account
@@ -28,8 +28,6 @@ Configure Droplit Amazon Alexa conduit to work with your Amazon Alexa account.
 If you have not configured an identity service provider, then take a look at [this article](https://ferrantejake.gitbooks.io/braindump/content/droplit-installing-identity-provider-conduit.html) for more information on setting up your Droplit acount with Auth0 as your identity service provider.
 
 ## Configure Amazon Alexa With Droplit
-
----
 
 ### Create Amazon Alexa Skill
 
@@ -78,9 +76,5 @@ You can choose to use Droplit's \(recommended\) provided Lambda function, or you
    2. Alexa Skill ARN
       1. This field requires the **Application ID** located in the **Skill Information **page on the Amazon Developer Dashboard.
 
-## Conclusion
 
----
-
-Congratulations, you've completed setting up an Auth0 identity service provider. You can now authenticate with the Auth0 service.
 

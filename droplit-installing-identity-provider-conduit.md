@@ -6,13 +6,13 @@ This walkthrough shows you how to install the Dropliot Auth0 conduit, set up a c
 
 * Create/Configure Auth0 client
 * Install Droplit Auth0 conduit
-* Configure Droplit Auth0 conduit to communicate with Auth0 client 
+* Configure Droplit Auth0 conduit to communicate with the Auth0 client 
 
 Once this is completed, users in your ecosystem will be able to authenticate through either Auth0 or one of Auth0's 3rd party services such as Facebook, Microsoft, Google, etc.
 
 # Setup Auth0 Client
 
-An Auth0 client enables you to handle user logins through either Auth0's identity provider system or alternatively through once of the available 3rd party identity provider systems. 
+An Auth0 client enables you to handle user logins through either Auth0's identity provider system or alternatively through once of the available 3rd party identity provider systems.
 
 ## Get an Auth0 account
 
