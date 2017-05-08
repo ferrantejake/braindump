@@ -2,13 +2,13 @@
 
 # Overview
 
-This walkthrough shows you how to install the Dropliot Auth0 skill, set up a compatible Auth0 client, and configure the two to work together to provide authentication for your ecosystem. It consists of 3 parts:
+This walkthrough shows you how to install the Dropliot Auth0 conduit, set up a compatible Auth0 client, and configure the two to work together to provide authentication for your ecosystem. It consists of 3 parts:
 
-* Create/Configure Auth0 Client
-* Install Droplit Auth0 Skill
-* Configure Droplit Auth0 skill to communicate with Auth0 client 
+* Create/Configure Auth0 client
+* Install Droplit Auth0 conduit
+* Configure Droplit Auth0 conduit to communicate with Auth0 client 
 
-Once this is completed, users in your ecosystem will be able to authenticate through Atuh0 using one of Auth0's 3rd party service such as Facebook, Auth0, Microsoft, Google, etc.
+Once this is completed, users in your ecosystem will be able to authenticate through either Auth0 or one of Auth0's 3rd party services such as Facebook, Microsoft, Google, etc.
 
 # Setup Auth0 Client
 
