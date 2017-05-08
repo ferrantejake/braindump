@@ -32,6 +32,8 @@ If you have not configured an identity service provider, then take a look at [co
 | :--- | :--- |
 
 
+
+
 We will come back to this, so make sure to keep the tab open and save your work
 
 ### Install Droplit Amazon Alexa Skill
