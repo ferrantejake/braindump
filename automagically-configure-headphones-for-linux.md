@@ -33,5 +33,7 @@ $ scan off
 $ exit
 ```
 
+# Enable Auto Connect
+
 
 
