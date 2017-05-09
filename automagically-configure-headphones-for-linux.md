@@ -33,9 +33,15 @@ $ scan off
 $ exit
 ```
 
+# Change Primary Sound Source
+
+Open sound and choose the headphones as the primary playback device
+
+# Change Headphone Sound Settings
+
+The newly connected headphones need to be set to A2DP \(currently on HSV\). This can be done through PulseAudio. Find the appropriate playback device and change the settings. 
+
 # Enable Auto Connect
 
 &lt;todo&gt;
-
-
 
