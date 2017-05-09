@@ -27,5 +27,11 @@ echo "file:///home/jakef/Code" >> ~/.config/gtk-3.0/bookmarks
 gpg --revc-key <key>
 ```
 
+# Not an Arch Package? Make One!
+
+[https://wiki.archlinux.org/index.php/Creating\_packages](https://wiki.archlinux.org/index.php/Creating_packages)
+
+Handy for RPM packages which do not exist in the AUR, or otherwise
+
 
 
