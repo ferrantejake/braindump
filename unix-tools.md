@@ -33,5 +33,11 @@ gpg --revc-key <key>
 
 Handy for RPM packages which do not exist in the AUR, or otherwise
 
+# Extract RPM packages
+
+```
+rpmextract <package_name>.rpm
+```
+
 
 
