@@ -48,15 +48,19 @@ The Droplit Amazon Alexa Skill serves as a means for Droplit to assist the Amazo
 
 Connecting these features will allow for Alexa-enabled devices to authenticate through Droplit with a chosen identity service provider. This requires information from both the Amazon Alexa skill configuration as well as the Droplit Alexa Skill Conduit configuration so it would be helpful to have these portals side-by-side.
 
-1. Use the information from the Droplit Alexa Skill conduit configuration to setup the following fields in the Amazon Developer Console Alexa Skill configuration
-   1. Authorization URL
-   2. Client Id
-   3. Domain List
-      1. An important note: these are the domains associated with Droplit which will be visited during the authorization process. If one needs to authenticate with another service such as Auth0 and/or Facebook, then they will require the domains associated with making that transaction.
-   4. Scope
-   5. Access Token URI
-   6. Client Secret
-2. Complete the following:
+Use the information from the Droplit Alexa Skill conduit configuration to setup the following fields in the Amazon Developer Console Alexa Skill configuration.
+
+* Authorization URL
+* Client Id
+* Domain List
+
+> Note: these are the domains associated with Droplit which will be visited during the authorization process. If one needs to authenticate with another service such as Auth0 and/or Facebook, then they will require the domains associated with making that transaction.
+
+* Scope
+* Access Token URI
+* Client Secret
+
+1. Complete the following:
    1. Select **Auth Code Grant** for Authorization Grant Type
    2. Select **HTTP Basic** for Client Authentication Scheme
 
