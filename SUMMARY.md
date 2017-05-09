@@ -7,6 +7,7 @@
 * [Worthwhile Quotes](worthwhile-quotes.md)
 * [Add An Environment User](add-an-environment-user.md)
 * [Sample Garbage](sample-garbage.md)
+* [Disable Readonly on Disk](disable-readonly-on-disk.md)
 
 ## Droplit
 
