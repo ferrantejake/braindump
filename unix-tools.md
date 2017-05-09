@@ -21,5 +21,11 @@ nano ~/.config/nautilus/bookmarks
 echo "file:///home/jakef/Code" >> ~/.config/gtk-3.0/bookmarks
 ```
 
+# Invalid GPG Key &lt;somekey&gt;!
+
+```
+gpg --revc-key <key>
+```
+
 
 
