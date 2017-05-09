@@ -36,7 +36,7 @@ Handy for RPM packages which do not exist in the AUR, or otherwise
 # Extract RPM packages
 
 ```
-rpmextract <package_name>.rpm
+rpm2cpio <package_name>.rpm > <package_name>.cpio
 ```
 
 
