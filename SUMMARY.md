@@ -9,6 +9,7 @@
 * [Sample Garbage](sample-garbage.md)
 * [Disable Readonly on Disk](disable-readonly-on-disk.md)
 * [Handy Linux Things](unix-tools.md)
+* [Automagically Configure Headphones for Linux](automagically-configure-headphones-for-linux.md)
 
 ## Droplit
 
