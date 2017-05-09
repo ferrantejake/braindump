@@ -18,6 +18,8 @@
 
 ```
 nano ~/.config/nautilus/bookmarks
+file:///home/jakef/Code >> ~/.config/nautilus/bookmarks
+
 ```
 
 
