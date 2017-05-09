@@ -12,7 +12,7 @@
 
 | Common Tooling |  |
 | :--- | :--- |
-| fdisk \(fdisk -l\) | display disk information  |
+| fdisk \(fdisk -l\) | display disk information |
 
 
 
