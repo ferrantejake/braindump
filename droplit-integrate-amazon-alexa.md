@@ -53,20 +53,20 @@ Use the information from the Droplit Alexa Skill conduit configuration to setup 
 * Authorization URL
 * Client Id
 * Domain List
-
-> Note: these are the domains associated with Droplit which will be visited during the authorization process. If one needs to authenticate with another service such as Auth0 and/or Facebook, then they will require the domains associated with making that transaction.
-
 * Scope
-* Access Token URI
+* Access Token URL
 * Client Secret
 
-1. Complete the following:
-   1. Select **Auth Code Grant** for Authorization Grant Type
-   2. Select **HTTP Basic** for Client Authentication Scheme
+> Note: The domains in the domain list are the domains associated with Droplit which will be visited during the authorization process. If you need to authenticate with another service such as Auth0 and/or Facebook, then they will require the domains associated with making that transaction.
+
+Complete the following:
+
+1. Select **Auth Code Grant** for Authorization Grant Type
+2. Select **HTTP Basic** for Client Authentication Scheme
 
 # Choose Your Lambda Function
 
-You can choose to use Droplit's \(recommended\) provided Lambda function, or you can use your own. For more information on this, visit &lt;Configure Droplit AWS Lambda Function&gt;. In the mean time, we can use the provided Droplit AWS Lambda function
+The Lambda Function is code which will be executed when a user makes a request using an Alexa-enabled device. This function will depict the business logic of how Alexa communicates with the Droplit API. You can choose to use Droplit's \(recommended\) provided Lambda function, or you can use your own. For more information on this, visit &lt;Configure Droplit AWS Lambda Function&gt;. In the mean time, we can use the provided Droplit AWS Lambda function
 
 **Droplit Lambda Function**: _arn:aws:lambda:us-east-1:428766893289:function:droplitSmartHomeAdapter_
 
