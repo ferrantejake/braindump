@@ -63,6 +63,7 @@ Complete the following:
 
 1. Select **Auth Code Grant** for Authorization Grant Type
 2. Select **HTTP Basic** for Client Authentication Scheme
+3. Save your settings
 
 # Choose Your Lambda Function
 
@@ -82,5 +83,5 @@ Use the information from the Amazon Developer Console Alexa Skill configuration 
 
 > Note: This field requires the **Application ID** located in the **Skill Information **page on the Amazon Developer Dashboard.
 
-
+Make sure to save your settings
 
