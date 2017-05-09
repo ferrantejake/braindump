@@ -8,7 +8,7 @@
 * [Add An Environment User](add-an-environment-user.md)
 * [Sample Garbage](sample-garbage.md)
 * [Disable Readonly on Disk](disable-readonly-on-disk.md)
-* [Linux Tools](unix-tools.md)
+* [Handy Linux Things](unix-tools.md)
 
 ## Droplit
 

@@ -14,5 +14,11 @@
 | :--- | :--- |
 | fdisk \(fdisk -l\) | display disk information |
 
+# Edit Nautilus Bookmarks
+
+```
+nano ~/.config/nautilus/bookmarks
+```
+
 
 
