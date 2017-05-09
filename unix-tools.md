@@ -18,8 +18,7 @@
 
 ```
 nano ~/.config/nautilus/bookmarks
-file:///home/jakef/Code >> ~/.config/nautilus/bookmarks
-
+echo "file:///home/jakef/Code" >> ~/.config/gtk-3.0/bookmarks
 ```
 
 
