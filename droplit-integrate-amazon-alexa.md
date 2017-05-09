@@ -19,11 +19,9 @@ Once this is completed, users in your ecosystem will be able to use Alexa voice 
 
 If you have not configured an identity service provider, then take a look at [configuring the Auth0 identity service provider conduit](https://ferrantejake.gitbooks.io/braindump/content/droplit-installing-identity-provider-conduit.html).
 
-# Configure Amazon Alexa With Droplit
+# Create Amazon Alexa Skill
 
-## Create Amazon Alexa Skill
-
-The Amazon Alexa Skill serves as the means for Alexa to communicate with Droplit. Users are able to install this skill on their 
+The Amazon Alexa Skill serves as the means for Alexa to communicate with Droplit. Users are able to install this skill on their Alexa account via the Alexa app.
 
 1. [Sign into your Amazon Developer account](https://developer.amazon.com)
 2. Select the **Alexa** tab and navigate to the **Alexa Skills Kit** 
@@ -36,19 +34,19 @@ The Amazon Alexa Skill serves as the means for Alexa to communicate with Droplit
 
 We will come back to this, so make sure to keep the tab open and save your work
 
-## Install Droplit Amazon Alexa Skill
+# Install Droplit Amazon Alexa Skill Conduit
+
+The Droplit Amazon Alexa Skill serves as a means for Droplit to assist the Amazon Alexa Skill to authenticate with a selected identity service provider. An identity service provider can be selected in the Droplit dashboard. More information on [choosing an identity service provider](https://ferrantejake.gitbooks.io/braindump/content/droplit-installing-identity-provider-conduit.html).
 
 > Tip: Name your conduit aptly - you have one per ecosystem
 
 1. In a new tab [sign in to the Droplit Portal](http://portal.droplit.io)
 2. In the left side panel select **Conduits** to open the conduits view
 3. Find and install the **Alexa Smart Home Skill** conduit
-4. Open open your newly installed Amazon Alexa Skill conduit
-5. 1. Here we should see some documentation for the conduit's settings, incluiding the `Authorization URL`, `Client Id`, and others.
 
-## Configure Alexa for Droplit
+# Configure Alexa Skill With Droplit Alexa Skill Conduit
 
-### Alexa Configuration Dashboard
+Connecting these features will allow for Alexa-enabled devices to authenticate through Droplit with a chosen identity service provider. This requires information from both the Amazon Alexa skill configuration as well as the Droplit Alexa Skill Conduit configuration so it would be helpful to have these portals side-by-side.
 
 1. Use the information from the Droplit Alexa Skill conduit configuration to setup the following fields in the Amazon Developer Console Alexa Skill configuration
    1. Authorization URL
@@ -62,13 +60,13 @@ We will come back to this, so make sure to keep the tab open and save your work
    1. Select **Auth Code Grant** for Authorization Grant Type
    2. Select **HTTP Basic** for Client Authentication Scheme
 
-### Choose Your Lambda Function
+# Choose Your Lambda Function
 
 You can choose to use Droplit's \(recommended\) provided Lambda function, or you can use your own. For more information on this, visit &lt;Configure Droplit AWS Lambda Function&gt;. In the mean time, we can use the provided Droplit AWS Lambda function
 
 **Droplit Lambda Function**: _arn:aws:lambda:us-east-1:428766893289:function:droplitSmartHomeAdapter_
 
-### Droplit Alexa Skill
+# Droplit Alexa Skill
 
 1. Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
    1. Redirect URL
