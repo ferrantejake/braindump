@@ -25,5 +25,6 @@
 
 ## Management
 
+* [Understanding Your Linux File System](understanding-your-linux-file-system.md)
 * [Azure Management Certificate](azure-management-certificate.md)
 

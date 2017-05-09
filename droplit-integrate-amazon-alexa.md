@@ -23,6 +23,8 @@ If you have not configured an identity service provider, then take a look at [co
 
 ## Create Amazon Alexa Skill
 
+The Amazon Alexa Skill serves as the means for Alexa to communicate with Droplit. Users are able to install this skill on their 
+
 1. [Sign into your Amazon Developer account](https://developer.amazon.com)
 2. Select the **Alexa** tab and navigate to the **Alexa Skills Kit** 
 3. Whether you are creating a new skill or integrating a pre-existing one, make sure it is configured to use the **Smart Home Skill API**. This option can be configured under **Skill Information** **&gt;** **Skill Type** in your skill's configuration settings
@@ -36,12 +38,13 @@ We will come back to this, so make sure to keep the tab open and save your work
 
 ## Install Droplit Amazon Alexa Skill
 
-1. In a new tab go to [http://portal.droplit.io](http://portal.droplit.io) and sign in
-2. Click "Conduits" \(side-left panel\) to open the conduits view
-3. Find and install the Alexa Smart Home Skill conduit
-   1. Name your conduit aptly - you have one per ecosystem
+> Tip: Name your conduit aptly - you have one per ecosystem
+
+1. In a new tab [sign in to the Droplit Portal](http://portal.droplit.io)
+2. In the left side panel select **Conduits** to open the conduits view
+3. Find and install the **Alexa Smart Home Skill** conduit
 4. Open open your newly installed Amazon Alexa Skill conduit
-   1. Here we should see some documentation for the conduit's settings, incluiding the `Authorization URL`, `Client Id`, and others.
+5. 1. Here we should see some documentation for the conduit's settings, incluiding the `Authorization URL`, `Client Id`, and others.
 
 ## Configure Alexa for Droplit
 
