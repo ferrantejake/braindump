@@ -1,6 +1,6 @@
 # Overview
 
-This is for bluetooth-enabled headphone devices
+This is for bluetooth-enabled headphone devices. More info here [https://www.gitbook.com/book/ferrantejake/braindump/edit\#/edit/master/automagically-configure-headphones-for-linux.md?\_k=dup8t9](https://www.gitbook.com/book/ferrantejake/braindump/edit#/edit/master/automagically-configure-headphones-for-linux.md?_k=dup8t9)
 
 # Connect
 
@@ -34,6 +34,8 @@ $ exit
 ```
 
 # Enable Auto Connect
+
+&lt;todo&gt;
 
 
 
