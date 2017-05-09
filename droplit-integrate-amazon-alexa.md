@@ -70,14 +70,17 @@ The Lambda Function is code which will be executed when a user makes a request u
 
 **Droplit Lambda Function**: _arn:aws:lambda:us-east-1:428766893289:function:droplitSmartHomeAdapter_
 
-# Droplit Alexa Skill
+# Configure Droplit Alexa Skill Conduit With Alexa Skill
 
-1. Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
-   1. Redirect URL
-      1. There are two URLs provided in the Amazon Developer Dashboard Alexa Configuration. Use the URL which appears similar to the following:
-         1. [https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23](https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23)
-   2. Alexa Skill ARN
-      1. This field requires the **Application ID** located in the **Skill Information **page on the Amazon Developer Dashboard.
+Use the information from the Amazon Developer Console Alexa Skill configuration to set up the following fields in the Droplit Alexa Skill configuration
+
+* Redirect URL
+
+> Note: There are two URLs provided in the Amazon Developer Dashboard Alexa Configuration. Use the URL which appears similar to the following: [https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23](https://pitangui.amazon.com/api/skill/link/M2NGQSTDAAUR23)
+
+* Alexa Skill ARN
+
+> Note: This field requires the **Application ID** located in the **Skill Information **page on the Amazon Developer Dashboard.
 
 
 
