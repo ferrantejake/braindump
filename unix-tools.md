@@ -33,7 +33,7 @@ gpg --revc-key <key>
 
 Handy for RPM packages which do not exist in the AUR, or otherwise
 
-# Extract RPM packages
+# Extract RPM packages to CPIO \(Useful for extracting further\)
 
 ```
 rpm2cpio <package_name>.rpm > <package_name>.cpio
