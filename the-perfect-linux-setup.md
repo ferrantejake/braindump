@@ -14,5 +14,9 @@ Arch Linux
 
 Gnome
 
+# Gnome Extensions
+
+Adding Gnome extensions is a must. This requires the [desktop application](https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation), the [chrome gnome extension](https://extensions.gnome.org/#), and finally [the extensions](https://extensions.gnome.org)
+
 
 
