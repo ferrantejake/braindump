@@ -8,7 +8,7 @@ There's really no arguing here, I have the perfect setup. In this article I am g
 
 # Operating System
 
-Arch Linux
+Arch Linux - Antergos
 
 # Desktop
 
@@ -30,5 +30,11 @@ Adding Gnome extensions is a must. This requires the [desktop application](https
 * Native window placement
 * Places status indicator
 
+Applications
+
+* Vivaldi
+* VSCode
+* Spotify
+* 
 
 
