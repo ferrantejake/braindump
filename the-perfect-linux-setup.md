@@ -35,6 +35,7 @@ Applications
 * Vivaldi
 * VSCode
 * Spotify
-* 
+* Google Drive / OneDrive
+
 
 
