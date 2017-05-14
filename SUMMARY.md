@@ -5,6 +5,7 @@
 * [Introduction](README.md)
 * [Means To Analyze Journal Entries ](means-to-analyze-journal-entries.md)
 * [Worthwhile Quotes](worthwhile-quotes.md)
+* [Linux NPM Packages](linux-npm-packages.md)
 
 ## Droplit
 
