@@ -36,6 +36,7 @@ Applications
 * VSCode
 * Spotify
 * Google Drive / OneDrive
+* Arronax
 
 
 
