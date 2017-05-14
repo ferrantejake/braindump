@@ -9,6 +9,7 @@
 * [Sample Garbage](sample-garbage.md)
 * [Disable Readonly on Disk](disable-readonly-on-disk.md)
 * [Handy Linux Things](unix-tools.md)
+* [The Perfect Linux Setup](the-perfect-linux-setup.md)
 
 ## Droplit
 
