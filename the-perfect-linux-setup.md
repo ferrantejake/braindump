@@ -18,5 +18,17 @@ Gnome
 
 Adding Gnome extensions is a must. This requires the [desktop application](https://wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation), the [chrome gnome extension](https://extensions.gnome.org/#), and finally [the extensions](https://extensions.gnome.org)
 
+## Worthwhile Extensions
+
+* AlternateTab
+* User themes
+* Status menu buttons
+* Dash to dock
+* Clipboard indicator
+* Removable drive menu
+* Shelltile
+* Native window placement
+* Places status indicator
+
 
 

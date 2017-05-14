@@ -5,21 +5,16 @@
 * [Introduction](README.md)
 * [Means To Analyze Journal Entries ](means-to-analyze-journal-entries.md)
 * [Worthwhile Quotes](worthwhile-quotes.md)
-* [Add An Environment User](add-an-environment-user.md)
-* [Sample Garbage](sample-garbage.md)
-* [Disable Readonly on Disk](disable-readonly-on-disk.md)
-* [Handy Linux Things](unix-tools.md)
-* [Automagically Configure Headphones for Linux](automagically-configure-headphones-for-linux.md)
-* [The Perfect Linux Setup](the-perfect-linux-setup.md)
-
 
 ## Droplit
 
 * [Installing Identity Provider Conduit](droplit-installing-identity-provider-conduit.md)
 * [Integrate Amazon Alexa](droplit-integrate-amazon-alexa.md)
+* [Add An Environment User](add-an-environment-user.md)
 
 ## Programming
 
+* [Sample Garbage](sample-garbage.md)
 * TypeScript Mixins
 * String Concatenation Vulnerabilities \(Code Injection\)
 * [Session-based Node.js Applications in Azure ](stateful-nodejs-applications-in-azure.md)
@@ -32,4 +27,11 @@
 
 * [Understanding Your Linux File System](understanding-your-linux-file-system.md)
 * [Azure Management Certificate](azure-management-certificate.md)
+
+## Computer Shit
+
+* [The Perfect Linux Setup](the-perfect-linux-setup.md)
+* [Disable Readonly on Disk](disable-readonly-on-disk.md)
+* [Automagically Configure Headphones for Linux](automagically-configure-headphones-for-linux.md)
+* [Handy Linux Things](unix-tools.md)
 
