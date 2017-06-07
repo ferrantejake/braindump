@@ -11,6 +11,7 @@
 
 * [Installing Identity Provider Conduit](droplit-installing-identity-provider-conduit.md)
 * [Integrate Amazon Alexa](droplit-integrate-amazon-alexa.md)
+* [Integrate Amazon Alexa v2](integrate-amazon-alexa-v2.md)
 * [Add An Environment User](add-an-environment-user.md)
 
 ## Programming
