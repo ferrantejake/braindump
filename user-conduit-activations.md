@@ -73,10 +73,13 @@ $.ajax({
     }
 });
 ```
-In either case
+
 ## Expected Response
+In either case, the expected response is of the following format:
 ```json
 {
   redirect: "https://dev-yo.droplit.io/auth/activate?session=gL…rBhTcPRWHmURBc7sWP5xsTJocFLqr2P-LcTGCT-DxL1Q20TjG" 
 }
 ```
+
+Once redirected, the user will be able to sign into their service and authorize Droplit to access their devices. Once this occurs, the devices will be available for consumption in the Droplit API. 
