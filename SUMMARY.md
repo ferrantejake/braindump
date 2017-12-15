@@ -13,6 +13,7 @@
 * [Integrate Amazon Alexa](droplit-integrate-amazon-alexa.md)
 * [Integrate Amazon Alexa v2](integrate-amazon-alexa-v2.md)
 * [Add An Environment User](add-an-environment-user.md)
+* [Guidelines & Best Practices For Writing Tests](guidelines-and-best-practices-for-writing-tests.md)
 
 ## Programming
 
