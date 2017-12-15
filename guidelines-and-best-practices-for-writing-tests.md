@@ -82,7 +82,7 @@ For more information, reference [https://stackoverflow.com/questions/61400/good-
 
 1. **Thorough**. Test coverage should test all possible states and scenarios.
 2. **Repeatable**. Tests should produce the same results every time, and should not be dependent on some auxilliary state or feature.
-3. **Professional/Readable**. We have a log of code at Droplit. For the most part, the codebase follows reasonable conventions and is fairly consistent. Tests are no exclusion to this. Intention-revealing names, good comments which discuss what a test is to accomplish, properly indented code, code which role models easy-to-follow procedural logic, etc..
+3. **Professional/Readable**. We have a log of code at Droplit. For the most part, the codebase follows reasonable conventions and is fairly consistent. Tests are no exclusion to this. Intention-revealing names, good comments which discuss what a test is to accomplish, properly indented code, code which role models easy-to-follow procedural logic, etc.
 
 ## System Components \(a non-comprehensive list\)
 
