@@ -6,11 +6,11 @@ Disclaimer: we do not discuss validation/system tests in this article. These add
 
 ## Table of Contents
 
-* [Unit Tests and Integration Tests: What Is The Difference?](#unit-tests-and-integration-tests:-what-is-the-difference?)
+* [Unit Tests and Integration Tests: What Is The Difference?](#unit-tests-and-integration-tests-what-is-the-difference)
 * [Guidelines and Best Practices for Writing Tests](#guidelines-and-best-practices-for-writing-tests)
+* [System Components (a non-comprehensive list)](#system-components-a-non-comprehensive-list)
 
 ## Unit Tests and Integration Tests: What Is The Difference?
-
 
 ### **Unit Tests**
 
@@ -49,6 +49,7 @@ Integration tests address systems of components working testing. For Droplit, th
 Unit tests ensure  core components are working as expected. Integration tests make sure systems of components are working in a cohesive manner.
 
 ## Guidelines and Best Practices for Writing Tests
+
 
 ### **Unit Tests**
 
