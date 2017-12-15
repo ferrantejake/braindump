@@ -18,8 +18,6 @@
 ## Programming
 
 * [Sample Garbage](sample-garbage.md)
-* TypeScript Mixins
-* String Concatenation Vulnerabilities \(Code Injection\)
 * [Session-based Node.js Applications in Azure ](stateful-nodejs-applications-in-azure.md)
 * [Useful Erlang](useful-erlang-functions.md)
 * [Erlang Meaningful Output](erlang-meaningful-output.md)
@@ -37,4 +35,6 @@
 * [Disable Readonly on Disk](disable-readonly-on-disk.md)
 * [Automagically Configure Headphones for Linux](automagically-configure-headphones-for-linux.md)
 * [Handy Linux Things](unix-tools.md)
+
+
 
