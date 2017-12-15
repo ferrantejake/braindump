@@ -8,7 +8,7 @@ Disclaimer: we do not discuss validation/system tests in this article. These add
 
 * [Unit Tests and Integration Tests: What Is The Difference?](#unit-tests-and-integration-tests-what-is-the-difference)
 * [Guidelines and Best Practices for Writing Tests](#guidelines-and-best-practices-for-writing-tests)
-* [System Components (a non-comprehensive list)](#system-components-a-non-comprehensive-list)
+* [System Components \(a non-comprehensive list\)](#system-components-a-non-comprehensive-list)
 
 ## Unit Tests and Integration Tests: What Is The Difference?
 
@@ -50,7 +50,6 @@ Unit tests ensure  core components are working as expected. Integration tests ma
 
 ## Guidelines and Best Practices for Writing Tests
 
-
 ### **Unit Tests**
 
 #### Do
@@ -80,6 +79,10 @@ Unit tests ensure  core components are working as expected. Integration tests ma
 ### **Best Practices**
 
 For more information, reference [https://stackoverflow.com/questions/61400/good-unit-test\#answer-61868](https://stackoverflow.com/questions/61400/good-unit-test#answer-61868). This thread title addresses "unit tests" but the marked answer addresses tests in general, and the following are derived from it.
+
+1. **Thorough**. Test coverage should test all possible states and scenarios.
+2. **Repeatable**. Tests should produce the same results every time, and should not be dependent on some auxilliary state or feature.
+3. **Professional/Readable**. We have a log of code at Droplit. For the most part, the codebase follows reasonable conventions and is fairly consistent. Tests are no exclusion to this. Intention-revealing names, good comments which discuss what a test is to accomplish, properly indented code, code which role models easy-to-follow procedural logic, etc..
 
 ## System Components \(a non-comprehensive list\)
 
