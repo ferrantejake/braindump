@@ -18,8 +18,6 @@
 ## Programming
 
 * [Sample Garbage](sample-garbage.md)
-* TypeScript Mixins
-* String Concatenation Vulnerabilities \(Code Injection\)
 * [Session-based Node.js Applications in Azure ](stateful-nodejs-applications-in-azure.md)
 * [Useful Erlang](useful-erlang-functions.md)
 * [Erlang Meaningful Output](erlang-meaningful-output.md)
