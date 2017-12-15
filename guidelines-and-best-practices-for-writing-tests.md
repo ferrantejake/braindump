@@ -1,21 +1,16 @@
 # Test Writing Guidelines
 
----
-
 The purpose of this article is to talk about different types of testing and which forms of testing are appropriate for each component of the Droplit system. We will do this by first differentiating _unit testing_ and _integration testing_, and then relating each to the different components of the Droplit system.
 
 Disclaimer: we do not discuss validation/system tests in this article. These address a scope which our tests do not cover at the moment.
 
 ## Table of Contents
 
----
-
 * [Unit Tests and Integration Tests: What Is The Difference?](#unit-tests-and-integration-tests:-what-is-the-difference?)
 * [Guidelines and Best Practices for Writing Tests](#guidelines-and-best-practices-for-writing-tests)
 
 ## Unit Tests and Integration Tests: What Is The Difference?
 
----
 
 ### **Unit Tests**
 
@@ -54,8 +49,6 @@ Integration tests address systems of components working testing. For Droplit, th
 Unit tests ensure  core components are working as expected. Integration tests make sure systems of components are working in a cohesive manner.
 
 ## Guidelines and Best Practices for Writing Tests
-
----
 
 ### **Unit Tests**
 
